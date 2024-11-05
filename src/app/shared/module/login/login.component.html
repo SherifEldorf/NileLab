@@ -1,0 +1,80 @@
+
+<div class="row">
+	<div class="col-md-12" style="height: 10px;">
+		</div>
+	</div>
+	
+<form #LoginForm="ngForm" (ngSubmit)="Submit()" novalidate>
+	
+		<div class="row">
+			<div class="col-md-12" >
+				</div>
+			</div>
+
+			<div class="row">
+			
+			<div class="col-md-12">
+				<div class="form-group">
+					<label>{{Labelusername}}</label>
+					<input type="text" required class="form-control" #userName="ngModel" [(ngModel)]="baseUser.userName"
+					name="userName" placeholder="{{'UserName'|translate}}">
+				<div *ngIf="userName.invalid && (userName.dirty || userName.touched)"
+					class="alert alert-danger">
+		
+					<div *ngIf="userName.errors.required">
+						{{'EnterUserName'|translate}}
+					</div>
+				</div>
+					</div>
+				</div>
+
+				
+		</div>
+
+
+
+	<div class="row">
+
+		<div class="col-md-12">
+			<div class="form-group">
+				<label>{{Labelpassword}}</label>
+				<input type="password" required class="form-control" #passWord="ngModel" [(ngModel)]="baseUser.password"
+					name="passWord" placeholder="{{'Password'|translate}}">
+				<div *ngIf="passWord.invalid && (passWord.dirty || passWord.touched)"
+					class="alert alert-danger">
+	
+					<div *ngIf="passWord.errors.required">
+						{{'EnterPassword'|translate}}
+					</div>
+				</div>
+				</div>
+			</div>
+			
+	</div>
+
+
+	
+	<div class="break clear"></div>
+
+		
+	<div class="clear break"></div>
+	<div class="row">
+		<div class="col-md-12" >
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-12" style="text-align: center;">
+			<button  [disabled]="!LoginForm.valid" class="btn btn-primary" 
+				value="{{'Login'|translate}}" >{{'Login'|translate}}
+			</button>
+		</div>
+		</div>
+	
+
+		<div class="row">
+			<div class="col-md-12" style="height: 10px;">
+				</div>
+			</div>
+	</form>

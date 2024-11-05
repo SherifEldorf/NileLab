@@ -1,0 +1,107 @@
+.et_fixed_nav #main-header, .et_fixed_nav #top-header {
+    position: fixed;
+    background-color: black !important;
+}
+
+.et-pb-arrow-next, .et-pb-arrow-prev {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    margin-top: -24px;
+    opacity: 0;
+    color: #fff;
+    font-size: 48px;
+    -webkit-transition: all .2s ease-in-out !important;
+    -moz-transition: all .2s ease-in-out !important;
+    transition: all .2s ease-in-out !important;
+}
+
+.et_pb_slider .et_pb_slide_1 {
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.8) 100%), url(http://autowrap-kw.com/wp-content/uploads/2019/03/8393.jpg);
+    background-color: rgba(255, 255, 255, 0);
+}
+.et_pb_slider .et_pb_slide_2 {
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.8) 100%), url(http://autowrap-kw.com/wp-content/uploads/2019/03/f4.jpg);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#et-info-email:before, #et-info-phone:before, #et_search_icon:before, .comment-reply-link:after, .et-cart-info span:before, .et-pb-arrow-next:before, .et-pb-arrow-prev:before, .et-social-icon a:before, .et_audio_container .mejs-playpause-button button:before, .et_audio_container .mejs-volume-button button:before, .et_overlay:before, .et_password_protected_form .et_submit_button:after, .et_pb_button:after, .et_pb_contact_reset:after, .et_pb_contact_submit:after, .et_pb_font_icon:before, .et_pb_newsletter_button:after, .et_pb_pricing_table_button:after, .et_pb_promo_button:after, .et_pb_social_icon a.icon:before, .et_pb_testimonial:before, .et_pb_toggle_title:before, .form-submit .et_pb_button:after, .mobile_menu_bar:before, .woocommerce #content input.button.alt:after, .woocommerce #content input.button:after, .woocommerce #respond input#submit.alt:after, .woocommerce #respond input#submit:after, .woocommerce a.button.alt:after, .woocommerce button.button.alt:after, .woocommerce button.button:after, .woocommerce button.single_add_to_cart_button.button:after, .woocommerce input.button.alt:after, .woocommerce input.button:after, .woocommerce-page #content input.button.alt:after, .woocommerce-page #content input.button:after, .woocommerce-page #respond input#submit.alt:after, .woocommerce-page #respond input#submit:after, .woocommerce-page a.button.alt:after, .woocommerce-page a.button:after, .woocommerce-page button.button.alt:after, .woocommerce-page button.button:after, .woocommerce-page input.button.alt:after, .woocommerce-page input.button:after, a.et_pb_more_button:after {
+    text-shadow: 0 0 !important;
+    font-family: ETmodules !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    line-height: 1 !important;
+    text-transform: none !important;
+    speak: none;
+}
+
+div.et_pb_section.et_pb_section_2 {
+     background-image: linear-gradient(180deg, hwb(0 95% 2%) 0%, #fceded 100%) !important; 
+}
+
+body #page-container .et_pb_section .et_pb_button_0 {
+    border-color: #333333;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
+body #page-container .et_pb_section  {
+    border-color: #333333 !important;
+    border-radius: 2px !important;
+    font-size: 14px !important;
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
+#main-footer {
+    background-color: black;
+}
+
+a, abbr, acronym, address, applet, b, big, blockquote, body, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.et_pb_section_2.et_pb_section {
+    padding-top: 100px !important;
+    padding-right: 0px !important;
+    padding-bottom: 10px !important;
+    padding-left: 0px !important;
+    background-color: #f2f6f9 !important;
+}
+#Autowrap_Bodyshop{
+    font-size: auto !important;
+}
+.tt h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: auto !important;
+    line-height: 1.5em;
+    text-align: center;
+}
+#Autowrap_Bodyshop {
+    font-size: 4vw;
+    font-size: auto !important;
+}
+div.et_pb_section.et_pb_section_1 {
+    background-image: linear-gradient(180deg, #0000 0%, rgba(0, 0, 0, 0.75) 100%) !important;
+}
+div.et_pb_section.et_pb_section_2 {
+    background-image: linear-gradient(180deg, rgba(20, 61, 88, 0.65) 0%, #143d58 100%), url(http://autowrap-kw.com/wp-content/uploads/2019/03/Back-car_repair_shop-25_comp.jpg) !important;
+}
+@media only screen and (min-width: 1350px) {
+    .et_pb_row {
+        padding: 27px 0;
+    }
+}

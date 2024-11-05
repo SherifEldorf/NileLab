@@ -1,0 +1,45 @@
+/* @import './assets/bootstrap-4.2.1-rtl/dist/css/bootstrap.css'; */
+@import url("./assets/DroidKufi_Regular/stylesheet.css"); 
+
+.body {
+  font-family: DroidKufi Regular,Tahoma, Geneva, sans-serif !important;
+ 
+
+}
+
+.ng-valid[required],
+.ng-valid.required {
+  border-right: 3px solid #42A948 !important;
+  /* green */
+}
+
+.ng-invalid:not(form) {
+  border-right: 3px solid #a94442 !important;
+  /* red */
+}
+
+
+legend.scheduler-border {
+  /* font-size: 1.2em !important;  */
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  text-align: right !important;
+  width: auto;
+  padding: 0 10px;
+  border-bottom: none;
+  margin-bottom: 5px !important;
+}
+
+
+.form-control {
+  text-align: right !important;
+}
+
+.alert-danger {
+  font-size: 12px !important;}
+
+  label{
+    text-align: right !important;
+  
+  }
+  

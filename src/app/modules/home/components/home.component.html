@@ -1,0 +1,104 @@
+<!-- <header id="header"> -->
+<!-- <div class="container">
+        <div class="row" style="margin-right:0px !important;margin-left:0px !important;">
+            <div style="padding-right:0px !important;padding-left:0px !important;">
+                <div class="language-button">
+                    <form>
+                        <div class="col-md-12">
+                            <input type="hidden" name="culture" ng-value="culture" ng-init="culture=en-us;" />
+                            <input type="hidden" name="CurrentUrl" ng-value="CurrentUrl" ng-init="CurrentUrl=test;" />
+
+                            <button type="submit" href="#" ng-click="SetLanguage('ar-eg');" class="language-button"
+                                role="button">
+                                <i class="fa fa-globe" aria-hidden="true"
+                                    style="margin-right:5px; font-size:18px;color:#ff6300;margin-top: 4px;"></i>اللغة
+                                العربية
+                            </button>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" href="#" ng-click="SetLanguage('en-us');" class="language-button"
+                                role="button">
+                                <i class="fa fa-globe " aria-hidden="true"
+                                    style="margin-right:5px; font-size:18px;color:#ff6300;margin-top: 4px;"></i> English
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
+<!-- </header> -->
+
+
+<div class="row">
+    <div class="container">
+
+        <div class="col-md-12" style="text-align: center; margin-top: 20px;"><img src="assets/images/first-logo.png"
+                width="285" height="228"></div>
+    </div>
+</div>
+
+
+<div class=" we-offer-area text-center">
+    <div class="container">
+        <div class="row  our-offer-s less-carousel" style="text-align: center; margin-top: 30px;">
+
+            <div class="col-md-4 equal-height" (click)="Login(patientLoginType)">
+                <div class="s">
+                    <i class="fa fa-user"></i>
+                    <h4>
+                        <!--{{'PatienBtn' | translate}}--> Patient</h4>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 equal-height" (click)="Login(doctorLoginType)">
+                <div class="s">
+                    <i class="fa fa-user-md"></i>
+                    <h4>
+                        <!--{{'DoctorBtn' | translate}}--> Doctor</h4>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 equal-height" (click)="Login(labLoginType)">
+                <div class="s">
+                    <i class="fa fa-hospital-o"></i>
+                    <h4>
+                        <!--{{'LabBtn' | translate}}--> Lab</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<footer class="footer">
+    <div class="row">
+        <div class="container">
+            <div class="col-md-4">
+                <i class="fa fa-twitter fo-ic"></i>
+                <i class="fa fa-snapchat fo-ic"></i>
+                <i class="fa fa-instagram fo-ic"></i><br>
+                <span class="fo-txet">First_labs</span>
+
+            </div>
+            <div class="col-md-4">
+                <span class="fo-txet"> Info@firstmedlab.com </span> <i class="fa fa-envelope fo-ic"></i>
+            </div>
+            <div class="col-md-4">
+                <span class="fo-txet">
+                    <!--{{'tel' | translate}}--> tel </span> <i class="fa fa-phone fo-ic"></i>
+            </div>
+        </div>
+    </div>
+    <p>
+        Developed and Designed by <a href="http://nt-me.com/">National Technology</a><br>
+        <!--{{'CopyRight' | translate}}-->CopyRight
+    </p>
+
+</footer>

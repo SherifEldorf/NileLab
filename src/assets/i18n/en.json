@@ -1,0 +1,26 @@
+{
+    "UserName": "User Name",
+    "SubHeader": "Eurofins. World Leader in Testing for Life.",
+    "SubHeader2": "47000 employees. 800 laboratories. 50 countries.",
+    "Password": "Password",
+    "EnterUserName": "Please Enter User Name",
+    "EnterPassword": "Please Enter Password",
+    "LoginSuccess": "Login Success",
+    "Login": "Login",
+    "NationalTechnology": "National Technology",
+    "LabName": "First Lab",
+    "LoginType": "Login Type",
+    "Patient": "Patient",
+    "AccNum": " Acc No.",
+    "Lab": "Center",
+    "Doctor": "Doctor",
+    "Payer": "Payer",
+    "Contract": "Contract",
+    "Location": "Location",
+    "Admin": "Admin",
+    "LabBtn": "Lab    ",
+    "DoctorBtn": "Doctors",
+    "PatienBtn": " Patient",
+    "BranchManager": "Admin"
+
+}

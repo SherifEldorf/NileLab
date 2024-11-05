@@ -1,0 +1,29 @@
+<div class="row header">
+    <div class="col-md-6 col-lg-6 col-sm-6" style="text-align: center;">
+        <!-- <img *ngIf="!hasValue(layoutSetting.logoPath)" src="assets/images/first-logo.png"
+            height="65px" />
+        <img *ngIf="hasValue(layoutSetting.logoPath)"
+            src="{{layoutSetting.logoPath}}" /> -->
+    </div>
+
+    <div class="col-md-6 col-lg-6 col-sm-6" style="margin-top: 10px;  text-align: right;">
+        <div *ngIf="layoutSetting.showHome" class="col-md-1 col-lg-1 col-sm-1"
+            style="display: inline-block;">
+            <i style="font-size: 20px;" class="fas fa-home"></i>
+        </div>
+        <div *ngIf="layoutSetting.showKey" class="col-md-1 col-lg-1 col-sm-1"
+            style="display: inline-block;">
+            <i style="font-size: 20px;cursor:pointer;" class="fas fa-key"></i>
+        </div>
+        <div *ngIf="layoutSetting.showLanguage" class="col-md-4 col-lg-4 col-sm-4"
+            style="display: inline-block;margin-bottom: 5px;">
+            <kendo-dropdownlist style="width:100%;" [data]="languageList" textField="name" valueField="id"
+                (valueChange)="onChange($event)" [(ngModel)]="selectedItem">
+            </kendo-dropdownlist>
+        </div>
+        <div *ngIf="layoutSetting.showLogOut" class="col-md-4 col-lg-4 col-sm-4"
+            style="display: inline-block;">
+            <button style="width:100%;height: 34px;" type="button" class="btn btn-outline-success"></button>
+        </div>
+    </div>
+</div>

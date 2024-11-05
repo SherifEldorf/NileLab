@@ -1,0 +1,4 @@
+.et_fixed_nav #main-header, .et_fixed_nav #top-header {
+    position: fixed;
+    background-color: black;
+}

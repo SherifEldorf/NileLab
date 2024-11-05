@@ -1,0 +1,66 @@
+body{
+  background-color:red !important;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+
+.form-container
+{
+background-image: url(../../../../../assets/images/header-bg.png) ;
+background-repeat: no-repeat;
+}
+
+
+.logo-header {
+
+  background-color: #f7f7f7 !important;
+  border-bottom: 1px solid #b7b7b7 !important;
+  border-top: 1px solid #b7b7b7 !important;
+  text-align: center !important;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #2d67b2;
+  background-clip: border-box;
+  border: 10px solid #e0e8f1;
+   border-radius: 20px !important;
+}
+
+
+.support-txt{
+  font-size: 13px;
+  font-family: 'DroidKufi Regular',cairo !important;
+  color:#b30000;
+  font-weight: 700;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #2d67b2;
+  background-clip: border-box;
+  border: 10px solid #e0e8f1;
+   border-radius: 20px !important;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0rem !important;
+}
+
+.support-txt{
+  font-size: 13px;
+  font-family: 'DroidKufi Regular',cairo !important;
+  color:#b30000;
+  font-weight: 700;
+}
